@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7634B07B24738AAF005C53AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634B07A24738AAF005C53AC /* AppDelegate.m */; };
+		7634B08124738AAF005C53AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634B08024738AAF005C53AC /* ViewController.m */; };
+		7634B08424738AAF005C53AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7634B08224738AAF005C53AC /* Main.storyboard */; };
+		7634B08624738AB0005C53AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7634B08524738AB0005C53AC /* Assets.xcassets */; };
+		7634B08924738AB0005C53AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7634B08724738AB0005C53AC /* LaunchScreen.storyboard */; };
+		7634B08C24738AB0005C53AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634B08B24738AB0005C53AC /* main.m */; };
+		7634B09624738AB0005C53AC /* uitestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634B09524738AB0005C53AC /* uitestTests.m */; };
+		7634B0A124738AB0005C53AC /* uitestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634B0A024738AB0005C53AC /* uitestUITests.m */; };
+		764D533224751429004D51D9 /* PTracerRouteResModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D52EF24751429004D51D9 /* PTracerRouteResModel.m */; };
+		764D533324751429004D51D9 /* PhoneTraceRouteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D52F224751429004D51D9 /* PhoneTraceRouteService.m */; };
+		764D533424751429004D51D9 /* PhoneTraceRoute.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D52F324751429004D51D9 /* PhoneTraceRoute.mm */; };
+		764D533524751429004D51D9 /* PNetQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D52F724751429004D51D9 /* PNetQueue.m */; };
+		764D533624751429004D51D9 /* PNetLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D52F924751429004D51D9 /* PNetLog.mm */; };
+		764D533724751429004D51D9 /* PNetTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D52FB24751429004D51D9 /* PNetTools.m */; };
+		764D533824751429004D51D9 /* PNetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D52FC24751429004D51D9 /* PNetworkCalculator.m */; };
+		764D533A24751429004D51D9 /* PNPortScan.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D530524751429004D51D9 /* PNPortScan.mm */; };
+		764D533B24751429004D51D9 /* PNUdpTraceroute.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D530924751429004D51D9 /* PNUdpTraceroute.m */; };
+		764D533C24751429004D51D9 /* PNDomainLookup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D530C24751429004D51D9 /* PNDomainLookup.mm */; };
+		764D533F24751429004D51D9 /* PPingResModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D531524751429004D51D9 /* PPingResModel.m */; };
+		764D534024751429004D51D9 /* PReportPingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D531624751429004D51D9 /* PReportPingModel.m */; };
+		764D534124751429004D51D9 /* PhonePing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D531B24751429004D51D9 /* PhonePing.mm */; };
+		764D534224751429004D51D9 /* PhonePingService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D531C24751429004D51D9 /* PhonePingService.mm */; };
+		764D534324751429004D51D9 /* PhoneNetDiagnosisHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D531F24751429004D51D9 /* PhoneNetDiagnosisHelper.m */; };
+		764D534524751429004D51D9 /* PhoneNetManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 764D532424751429004D51D9 /* PhoneNetManager.mm */; };
+		764D534624751429004D51D9 /* PNTcpPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D532A24751429004D51D9 /* PNTcpPing.m */; };
+		764D534F2477C988004D51D9 /* LBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D534E2477C988004D51D9 /* LBDevice.m */; };
+		764D53522477CB71004D51D9 /* KeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D53502477CB71004D51D9 /* KeychainTool.m */; };
+		764D53562478F729004D51D9 /* PNetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D53542478F728004D51D9 /* PNetModel.m */; };
+		764D535C2478F791004D51D9 /* PNetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D53592478F791004D51D9 /* PNetReachability.m */; };
+		764D535D2478F791004D51D9 /* PNetInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 764D535A2478F791004D51D9 /* PNetInfoTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7634B09224738AB0005C53AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7634B06E24738AAF005C53AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7634B07524738AAF005C53AC;
+			remoteInfo = uitest;
+		};
+		7634B09D24738AB0005C53AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7634B06E24738AAF005C53AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7634B07524738AAF005C53AC;
+			remoteInfo = uitest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7634B07624738AAF005C53AC /* uitest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7634B07924738AAF005C53AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7634B07A24738AAF005C53AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7634B07F24738AAF005C53AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7634B08024738AAF005C53AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7634B08324738AAF005C53AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7634B08524738AB0005C53AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7634B08824738AB0005C53AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7634B08A24738AB0005C53AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7634B08B24738AB0005C53AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7634B09124738AB0005C53AC /* uitestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7634B09524738AB0005C53AC /* uitestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uitestTests.m; sourceTree = "<group>"; };
+		7634B09724738AB0005C53AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7634B09C24738AB0005C53AC /* uitestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7634B0A024738AB0005C53AC /* uitestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uitestUITests.m; sourceTree = "<group>"; };
+		7634B0A224738AB0005C53AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764D52EF24751429004D51D9 /* PTracerRouteResModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTracerRouteResModel.m; sourceTree = "<group>"; };
+		764D52F024751429004D51D9 /* PTracerRouteResModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTracerRouteResModel.h; sourceTree = "<group>"; };
+		764D52F224751429004D51D9 /* PhoneTraceRouteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneTraceRouteService.m; sourceTree = "<group>"; };
+		764D52F324751429004D51D9 /* PhoneTraceRoute.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhoneTraceRoute.mm; sourceTree = "<group>"; };
+		764D52F424751429004D51D9 /* PhoneTraceRouteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneTraceRouteService.h; sourceTree = "<group>"; };
+		764D52F524751429004D51D9 /* PhoneTraceRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneTraceRoute.h; sourceTree = "<group>"; };
+		764D52F724751429004D51D9 /* PNetQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetQueue.m; sourceTree = "<group>"; };
+		764D52F824751429004D51D9 /* PNetworkCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetworkCalculator.h; sourceTree = "<group>"; };
+		764D52F924751429004D51D9 /* PNetLog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PNetLog.mm; sourceTree = "<group>"; };
+		764D52FA24751429004D51D9 /* log4cplus_pn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log4cplus_pn.h; sourceTree = "<group>"; };
+		764D52FB24751429004D51D9 /* PNetTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetTools.m; sourceTree = "<group>"; };
+		764D52FC24751429004D51D9 /* PNetworkCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetworkCalculator.m; sourceTree = "<group>"; };
+		764D52FD24751429004D51D9 /* PNetQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetQueue.h; sourceTree = "<group>"; };
+		764D52FE24751429004D51D9 /* PNetLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetLog.h; sourceTree = "<group>"; };
+		764D52FF24751429004D51D9 /* PNetTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetTools.h; sourceTree = "<group>"; };
+		764D530524751429004D51D9 /* PNPortScan.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PNPortScan.mm; sourceTree = "<group>"; };
+		764D530624751429004D51D9 /* PNPortScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPortScan.h; sourceTree = "<group>"; };
+		764D530824751429004D51D9 /* PNUdpTraceroute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNUdpTraceroute.h; sourceTree = "<group>"; };
+		764D530924751429004D51D9 /* PNUdpTraceroute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNUdpTraceroute.m; sourceTree = "<group>"; };
+		764D530B24751429004D51D9 /* PNDomainLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNDomainLookup.h; sourceTree = "<group>"; };
+		764D530C24751429004D51D9 /* PNDomainLookup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PNDomainLookup.mm; sourceTree = "<group>"; };
+		764D531424751429004D51D9 /* PReportPingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PReportPingModel.h; sourceTree = "<group>"; };
+		764D531524751429004D51D9 /* PPingResModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPingResModel.m; sourceTree = "<group>"; };
+		764D531624751429004D51D9 /* PReportPingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PReportPingModel.m; sourceTree = "<group>"; };
+		764D531724751429004D51D9 /* PPingResModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPingResModel.h; sourceTree = "<group>"; };
+		764D531924751429004D51D9 /* PhonePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonePing.h; sourceTree = "<group>"; };
+		764D531A24751429004D51D9 /* PhonePingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonePingService.h; sourceTree = "<group>"; };
+		764D531B24751429004D51D9 /* PhonePing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhonePing.mm; sourceTree = "<group>"; };
+		764D531C24751429004D51D9 /* PhonePingService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhonePingService.mm; sourceTree = "<group>"; };
+		764D531E24751429004D51D9 /* PhoneNetDiagnosisHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNetDiagnosisHelper.h; sourceTree = "<group>"; };
+		764D531F24751429004D51D9 /* PhoneNetDiagnosisHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNetDiagnosisHelper.m; sourceTree = "<group>"; };
+		764D532424751429004D51D9 /* PhoneNetManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhoneNetManager.mm; sourceTree = "<group>"; };
+		764D532524751429004D51D9 /* PhoneNetSDKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNetSDKHelper.h; sourceTree = "<group>"; };
+		764D532624751429004D51D9 /* PhoneNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNetManager.h; sourceTree = "<group>"; };
+		764D532724751429004D51D9 /* PhoneNetSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNetSDK.h; sourceTree = "<group>"; };
+		764D532824751429004D51D9 /* PhoneNetSDKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNetSDKConst.h; sourceTree = "<group>"; };
+		764D532A24751429004D51D9 /* PNTcpPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNTcpPing.m; sourceTree = "<group>"; };
+		764D532B24751429004D51D9 /* PNTcpPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNTcpPing.h; sourceTree = "<group>"; };
+		764D534D2477C988004D51D9 /* LBDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBDevice.h; sourceTree = "<group>"; };
+		764D534E2477C988004D51D9 /* LBDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBDevice.m; sourceTree = "<group>"; };
+		764D53502477CB71004D51D9 /* KeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainTool.m; sourceTree = "<group>"; };
+		764D53512477CB71004D51D9 /* KeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainTool.h; sourceTree = "<group>"; };
+		764D53542478F728004D51D9 /* PNetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetModel.m; sourceTree = "<group>"; };
+		764D53552478F728004D51D9 /* PNetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetModel.h; sourceTree = "<group>"; };
+		764D53582478F791004D51D9 /* PNetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetReachability.h; sourceTree = "<group>"; };
+		764D53592478F791004D51D9 /* PNetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetReachability.m; sourceTree = "<group>"; };
+		764D535A2478F791004D51D9 /* PNetInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetInfoTool.m; sourceTree = "<group>"; };
+		764D535B2478F791004D51D9 /* PNetInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetInfoTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7634B07324738AAF005C53AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7634B08E24738AB0005C53AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7634B09924738AB0005C53AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7634B06D24738AAF005C53AC = {
+			isa = PBXGroup;
+			children = (
+				7634B07824738AAF005C53AC /* uitest */,
+				7634B09424738AB0005C53AC /* uitestTests */,
+				7634B09F24738AB0005C53AC /* uitestUITests */,
+				7634B07724738AAF005C53AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7634B07724738AAF005C53AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7634B07624738AAF005C53AC /* uitest.app */,
+				7634B09124738AB0005C53AC /* uitestTests.xctest */,
+				7634B09C24738AB0005C53AC /* uitestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7634B07824738AAF005C53AC /* uitest */ = {
+			isa = PBXGroup;
+			children = (
+				764D52EC24751429004D51D9 /* PhoneNetSDK */,
+				7634B07924738AAF005C53AC /* AppDelegate.h */,
+				7634B07A24738AAF005C53AC /* AppDelegate.m */,
+				7634B07F24738AAF005C53AC /* ViewController.h */,
+				7634B08024738AAF005C53AC /* ViewController.m */,
+				7634B08224738AAF005C53AC /* Main.storyboard */,
+				7634B08524738AB0005C53AC /* Assets.xcassets */,
+				7634B08724738AB0005C53AC /* LaunchScreen.storyboard */,
+				7634B08A24738AB0005C53AC /* Info.plist */,
+				7634B08B24738AB0005C53AC /* main.m */,
+				764D53512477CB71004D51D9 /* KeychainTool.h */,
+				764D53502477CB71004D51D9 /* KeychainTool.m */,
+				764D534D2477C988004D51D9 /* LBDevice.h */,
+				764D534E2477C988004D51D9 /* LBDevice.m */,
+			);
+			path = uitest;
+			sourceTree = "<group>";
+		};
+		7634B09424738AB0005C53AC /* uitestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7634B09524738AB0005C53AC /* uitestTests.m */,
+				7634B09724738AB0005C53AC /* Info.plist */,
+			);
+			path = uitestTests;
+			sourceTree = "<group>";
+		};
+		7634B09F24738AB0005C53AC /* uitestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7634B0A024738AB0005C53AC /* uitestUITests.m */,
+				7634B0A224738AB0005C53AC /* Info.plist */,
+			);
+			path = uitestUITests;
+			sourceTree = "<group>";
+		};
+		764D52EC24751429004D51D9 /* PhoneNetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				764D53572478F779004D51D9 /* netInfo */,
+				764D53532478F728004D51D9 /* bean */,
+				764D52ED24751429004D51D9 /* utracert */,
+				764D52F624751429004D51D9 /* tools */,
+				764D530424751429004D51D9 /* portscan */,
+				764D530724751429004D51D9 /* udptracert */,
+				764D530A24751429004D51D9 /* lookup */,
+				764D531224751429004D51D9 /* uping */,
+				764D531D24751429004D51D9 /* common */,
+				764D532024751429004D51D9 /* public */,
+				764D532724751429004D51D9 /* PhoneNetSDK.h */,
+				764D532824751429004D51D9 /* PhoneNetSDKConst.h */,
+				764D532924751429004D51D9 /* tcpping */,
+			);
+			path = PhoneNetSDK;
+			sourceTree = "<group>";
+		};
+		764D52ED24751429004D51D9 /* utracert */ = {
+			isa = PBXGroup;
+			children = (
+				764D52EE24751429004D51D9 /* model */,
+				764D52F124751429004D51D9 /* control */,
+			);
+			path = utracert;
+			sourceTree = "<group>";
+		};
+		764D52EE24751429004D51D9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				764D52EF24751429004D51D9 /* PTracerRouteResModel.m */,
+				764D52F024751429004D51D9 /* PTracerRouteResModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		764D52F124751429004D51D9 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				764D52F524751429004D51D9 /* PhoneTraceRoute.h */,
+				764D52F324751429004D51D9 /* PhoneTraceRoute.mm */,
+				764D52F424751429004D51D9 /* PhoneTraceRouteService.h */,
+				764D52F224751429004D51D9 /* PhoneTraceRouteService.m */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		764D52F624751429004D51D9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				764D52F724751429004D51D9 /* PNetQueue.m */,
+				764D52F824751429004D51D9 /* PNetworkCalculator.h */,
+				764D52F924751429004D51D9 /* PNetLog.mm */,
+				764D52FA24751429004D51D9 /* log4cplus_pn.h */,
+				764D52FB24751429004D51D9 /* PNetTools.m */,
+				764D52FC24751429004D51D9 /* PNetworkCalculator.m */,
+				764D52FD24751429004D51D9 /* PNetQueue.h */,
+				764D52FE24751429004D51D9 /* PNetLog.h */,
+				764D52FF24751429004D51D9 /* PNetTools.h */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		764D530424751429004D51D9 /* portscan */ = {
+			isa = PBXGroup;
+			children = (
+				764D530524751429004D51D9 /* PNPortScan.mm */,
+				764D530624751429004D51D9 /* PNPortScan.h */,
+			);
+			path = portscan;
+			sourceTree = "<group>";
+		};
+		764D530724751429004D51D9 /* udptracert */ = {
+			isa = PBXGroup;
+			children = (
+				764D530824751429004D51D9 /* PNUdpTraceroute.h */,
+				764D530924751429004D51D9 /* PNUdpTraceroute.m */,
+			);
+			path = udptracert;
+			sourceTree = "<group>";
+		};
+		764D530A24751429004D51D9 /* lookup */ = {
+			isa = PBXGroup;
+			children = (
+				764D530B24751429004D51D9 /* PNDomainLookup.h */,
+				764D530C24751429004D51D9 /* PNDomainLookup.mm */,
+			);
+			path = lookup;
+			sourceTree = "<group>";
+		};
+		764D531224751429004D51D9 /* uping */ = {
+			isa = PBXGroup;
+			children = (
+				764D531324751429004D51D9 /* model */,
+				764D531824751429004D51D9 /* control */,
+			);
+			path = uping;
+			sourceTree = "<group>";
+		};
+		764D531324751429004D51D9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				764D531724751429004D51D9 /* PPingResModel.h */,
+				764D531524751429004D51D9 /* PPingResModel.m */,
+				764D531424751429004D51D9 /* PReportPingModel.h */,
+				764D531624751429004D51D9 /* PReportPingModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		764D531824751429004D51D9 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				764D531924751429004D51D9 /* PhonePing.h */,
+				764D531B24751429004D51D9 /* PhonePing.mm */,
+				764D531A24751429004D51D9 /* PhonePingService.h */,
+				764D531C24751429004D51D9 /* PhonePingService.mm */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		764D531D24751429004D51D9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				764D531E24751429004D51D9 /* PhoneNetDiagnosisHelper.h */,
+				764D531F24751429004D51D9 /* PhoneNetDiagnosisHelper.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		764D532024751429004D51D9 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				764D532424751429004D51D9 /* PhoneNetManager.mm */,
+				764D532524751429004D51D9 /* PhoneNetSDKHelper.h */,
+				764D532624751429004D51D9 /* PhoneNetManager.h */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		764D532924751429004D51D9 /* tcpping */ = {
+			isa = PBXGroup;
+			children = (
+				764D532A24751429004D51D9 /* PNTcpPing.m */,
+				764D532B24751429004D51D9 /* PNTcpPing.h */,
+			);
+			path = tcpping;
+			sourceTree = "<group>";
+		};
+		764D53532478F728004D51D9 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				764D53542478F728004D51D9 /* PNetModel.m */,
+				764D53552478F728004D51D9 /* PNetModel.h */,
+			);
+			name = bean;
+			path = public/bean;
+			sourceTree = "<group>";
+		};
+		764D53572478F779004D51D9 /* netInfo */ = {
+			isa = PBXGroup;
+			children = (
+				764D535B2478F791004D51D9 /* PNetInfoTool.h */,
+				764D535A2478F791004D51D9 /* PNetInfoTool.m */,
+				764D53582478F791004D51D9 /* PNetReachability.h */,
+				764D53592478F791004D51D9 /* PNetReachability.m */,
+			);
+			path = netInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7634B07524738AAF005C53AC /* uitest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7634B0A524738AB0005C53AC /* Build configuration list for PBXNativeTarget "uitest" */;
+			buildPhases = (
+				7634B07224738AAF005C53AC /* Sources */,
+				7634B07324738AAF005C53AC /* Frameworks */,
+				7634B07424738AAF005C53AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uitest;
+			productName = uitest;
+			productReference = 7634B07624738AAF005C53AC /* uitest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7634B09024738AB0005C53AC /* uitestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7634B0A824738AB0005C53AC /* Build configuration list for PBXNativeTarget "uitestTests" */;
+			buildPhases = (
+				7634B08D24738AB0005C53AC /* Sources */,
+				7634B08E24738AB0005C53AC /* Frameworks */,
+				7634B08F24738AB0005C53AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7634B09324738AB0005C53AC /* PBXTargetDependency */,
+			);
+			name = uitestTests;
+			productName = uitestTests;
+			productReference = 7634B09124738AB0005C53AC /* uitestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7634B09B24738AB0005C53AC /* uitestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7634B0AB24738AB0005C53AC /* Build configuration list for PBXNativeTarget "uitestUITests" */;
+			buildPhases = (
+				7634B09824738AB0005C53AC /* Sources */,
+				7634B09924738AB0005C53AC /* Frameworks */,
+				7634B09A24738AB0005C53AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7634B09E24738AB0005C53AC /* PBXTargetDependency */,
+			);
+			name = uitestUITests;
+			productName = uitestUITests;
+			productReference = 7634B09C24738AB0005C53AC /* uitestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7634B06E24738AAF005C53AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "汪炳权";
+				TargetAttributes = {
+					7634B07524738AAF005C53AC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7634B09024738AB0005C53AC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7634B07524738AAF005C53AC;
+					};
+					7634B09B24738AB0005C53AC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7634B07524738AAF005C53AC;
+					};
+				};
+			};
+			buildConfigurationList = 7634B07124738AAF005C53AC /* Build configuration list for PBXProject "uitest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7634B06D24738AAF005C53AC;
+			productRefGroup = 7634B07724738AAF005C53AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7634B07524738AAF005C53AC /* uitest */,
+				7634B09024738AB0005C53AC /* uitestTests */,
+				7634B09B24738AB0005C53AC /* uitestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7634B07424738AAF005C53AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7634B08924738AB0005C53AC /* LaunchScreen.storyboard in Resources */,
+				7634B08624738AB0005C53AC /* Assets.xcassets in Resources */,
+				7634B08424738AAF005C53AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7634B08F24738AB0005C53AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7634B09A24738AB0005C53AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7634B07224738AAF005C53AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764D533C24751429004D51D9 /* PNDomainLookup.mm in Sources */,
+				764D534124751429004D51D9 /* PhonePing.mm in Sources */,
+				764D534F2477C988004D51D9 /* LBDevice.m in Sources */,
+				764D534524751429004D51D9 /* PhoneNetManager.mm in Sources */,
+				764D533824751429004D51D9 /* PNetworkCalculator.m in Sources */,
+				764D533224751429004D51D9 /* PTracerRouteResModel.m in Sources */,
+				764D53522477CB71004D51D9 /* KeychainTool.m in Sources */,
+				7634B08124738AAF005C53AC /* ViewController.m in Sources */,
+				764D53562478F729004D51D9 /* PNetModel.m in Sources */,
+				7634B07B24738AAF005C53AC /* AppDelegate.m in Sources */,
+				764D534224751429004D51D9 /* PhonePingService.mm in Sources */,
+				764D534624751429004D51D9 /* PNTcpPing.m in Sources */,
+				764D534324751429004D51D9 /* PhoneNetDiagnosisHelper.m in Sources */,
+				764D533324751429004D51D9 /* PhoneTraceRouteService.m in Sources */,
+				764D533B24751429004D51D9 /* PNUdpTraceroute.m in Sources */,
+				764D534024751429004D51D9 /* PReportPingModel.m in Sources */,
+				7634B08C24738AB0005C53AC /* main.m in Sources */,
+				764D533724751429004D51D9 /* PNetTools.m in Sources */,
+				764D533524751429004D51D9 /* PNetQueue.m in Sources */,
+				764D533F24751429004D51D9 /* PPingResModel.m in Sources */,
+				764D533424751429004D51D9 /* PhoneTraceRoute.mm in Sources */,
+				764D533A24751429004D51D9 /* PNPortScan.mm in Sources */,
+				764D535C2478F791004D51D9 /* PNetReachability.m in Sources */,
+				764D535D2478F791004D51D9 /* PNetInfoTool.m in Sources */,
+				764D533624751429004D51D9 /* PNetLog.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7634B08D24738AB0005C53AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7634B09624738AB0005C53AC /* uitestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7634B09824738AB0005C53AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7634B0A124738AB0005C53AC /* uitestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7634B09324738AB0005C53AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7634B07524738AAF005C53AC /* uitest */;
+			targetProxy = 7634B09224738AB0005C53AC /* PBXContainerItemProxy */;
+		};
+		7634B09E24738AB0005C53AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7634B07524738AAF005C53AC /* uitest */;
+			targetProxy = 7634B09D24738AB0005C53AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7634B08224738AAF005C53AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7634B08324738AAF005C53AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7634B08724738AB0005C53AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7634B08824738AB0005C53AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7634B0A324738AB0005C53AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7634B0A424738AB0005C53AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7634B0A624738AB0005C53AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = uitest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.uitest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7634B0A724738AB0005C53AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = uitest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.uitest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7634B0A924738AB0005C53AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = uitestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.uitestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uitest.app/uitest";
+			};
+			name = Debug;
+		};
+		7634B0AA24738AB0005C53AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = uitestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.uitestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uitest.app/uitest";
+			};
+			name = Release;
+		};
+		7634B0AC24738AB0005C53AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = uitestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.uitestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uitest;
+			};
+			name = Debug;
+		};
+		7634B0AD24738AB0005C53AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = uitestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.uitestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uitest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7634B07124738AAF005C53AC /* Build configuration list for PBXProject "uitest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7634B0A324738AB0005C53AC /* Debug */,
+				7634B0A424738AB0005C53AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7634B0A524738AB0005C53AC /* Build configuration list for PBXNativeTarget "uitest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7634B0A624738AB0005C53AC /* Debug */,
+				7634B0A724738AB0005C53AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7634B0A824738AB0005C53AC /* Build configuration list for PBXNativeTarget "uitestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7634B0A924738AB0005C53AC /* Debug */,
+				7634B0AA24738AB0005C53AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7634B0AB24738AB0005C53AC /* Build configuration list for PBXNativeTarget "uitestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7634B0AC24738AB0005C53AC /* Debug */,
+				7634B0AD24738AB0005C53AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7634B06E24738AAF005C53AC /* Project object */;
+}
